@@ -1,0 +1,27 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My YouTube</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>My YouTube</h1>
+
+  <div class="filter-buttons">
+    <button onclick="filterVideos('all')">All</button>
+    <button onclick="filterVideos('completed')">Completed</button>
+    <button onclick="filterVideos('uncompleted')">Uncompleted</button>
+  </div>
+
+  <div id="video-list"></div>
+
+  <div style="text-align: center; margin-top: 20px;">
+    <button id="load-more" onclick="loadMore()">Load More</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
